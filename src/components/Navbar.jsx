@@ -22,7 +22,7 @@ function Navbar() {
               </div>
               <div className='hidden md:block'>
                 <div className='ml-10 flex items-baseline space-x-4'>
-                <Link className='hover:bg-[#292d0d] hover:text-white text-black px-3 py-2 rounded-md text-lg font-medium'
+                {/* <Link className='hover:bg-[#292d0d] hover:text-white text-black px-3 py-2 rounded-md text-lg font-medium'
                     to="/"
                     spy={true}
                     smooth={true}
@@ -33,8 +33,9 @@ function Navbar() {
                     spy={true}
                     smooth={true}
                     offset={50}
-                    duration={500}>ContactUs</Link>
-                  {/* <a id='link' href='#contactus' ></a> */}
+                    duration={500}>ContactUs</Link> */}
+                  <a href='/' className='hover:bg-[#292d0d] hover:text-white text-black px-3 py-2 rounded-md text-lg font-medium'> Home</a>
+                  <a  href='#contactus' className='hover:bg-[#292d0d] hover:text-white  text-black px-3 py-2 rounded-md text-lg font-medium scroll-smooth'> ContactUs</a>
                 </div>
               </div>
             </div>
@@ -98,7 +99,7 @@ function Navbar() {
                   <div className="md:hidden" id="mobile-menu ">
                       <div  className=" flex flex-col items-center justify-center px-8 pt-2 pb-3 space-y-1 ">
                         <a href='/' className='hover:bg-[#292d0d] hover:text-white text-black px-3 py-2 rounded-md text-lg font-medium'>Home</a>
-                        <a href='' className='hover:bg-[#292d0d] hover:text-white  text-black px-3 py-2 rounded-md text-lg font-medium'>ContactUs</a>
+                        <a href='#contactus' className='hover:bg-[#292d0d] hover:text-white  text-black px-3 py-2 rounded-md text-lg font-medium'>ContactUs</a>
                       </div>
                     </div>
         </Transition>

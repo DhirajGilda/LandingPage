@@ -2,7 +2,7 @@ import React from 'react'
 
 const Contactus = () => {
   return (
-        <section id="contactus" className=' sm:p-14 sm:m-8 p-8 w-full  '>
+        <section id="contactus" className=' sm:p-14 sm:m-8 p-8   '>
             <div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md m-auto  shadow-[#77b036] backdrop-filter backdrop-blur-lg rounded-[20px]">
                 <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-center text-[#292d0d]">Contact Us</h2>
                 <form action="#" class="space-y-8">
