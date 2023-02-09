@@ -1,13 +1,124 @@
-body {
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  h1 {
+    @apply text-4xl;
+    @apply font-bold;
+  }
+  h2 {
+    @apply text-3xl;
+    @apply font-bold;
+  }
+  h3 {
+    @apply text-2xl;
+    @apply font-bold;
+  }
+  h4 {
+    @apply text-xl;
+    @apply font-semibold;
+  }
+  h5 {
+    @apply text-base; /*or text-lg */
+    @apply font-semibold;
+  }
+  h6 {
+    @apply text-sm;
+    @apply font-semibold;
+  }
+  ul, ol {
+    list-style: revert;
+  }
+}
+
+
+
+body ,html{
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+ /* background: url("https://img.freepik.com/free-vector/hand-painted-watercolor-nature-background_23-2148909999.jpg") ; */
+ background:url("/public/background5.png") ;
+  background-position: center center;
+  background-repeat: no-repeat; 
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+  
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+   
+    
 }
+
+.bg-foo {
+  
+  background:url("/public/ead566_9cbaa34eb7e94b8e8ebba3580880d70d_mv2.webp");
+  background-position: center center;
+  background-size: cover;
+}
+
+.hover\:bg-bar:hover {
+  background:url("/public/hoverStick.webp");
+  background-position: center center;
+  background-size: cover;
+}
+.bg-foo1 {
+  
+  background:url("/public/bambooLoaf.webp");
+  background-position: center center;
+  background-size: cover;
+}
+
+.hover\:bg-bar1:hover {
+  background:url("/public/hoverbambooLoaf.webp");
+  background-position: center center;
+  background-size: cover;
+}
+.bg-foo2 {
+  
+  background:url(" /public/hoverBrush.webp");
+  background-position: center center;
+  background-size: cover;
+}
+
+.hover\:bg-bar2:hover {
+  background:url("/public/brush.webp");
+  background-position: center center;
+  background-size: cover;
+}
+.bg-foo3 {
+  
+  background:url("/public/cup.webp ");
+  background-position: center center;
+  background-size: cover;
+}
+
+.hover\:bg-bar3:hover {
+  background:url("/public/hoverCup.webp");
+  background-position: center center;
+  background-size: cover;
+}
+.svg_icons {
+  transform: scale(2.8);
+}
+/* .bg-foo4 {
+  
+  background:url("/public/ead566_9cbaa34eb7e94b8e8ebba3580880d70d_mv2.webp");
+  background-position: center center;
+  background-size: cover;
+}
+
+.hover\:bg-bar4:hover {
+  background:url("/public/hoverStick.webp");
+  background-position: center center;
+  background-size: cover;
+} */
