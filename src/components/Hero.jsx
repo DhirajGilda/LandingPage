@@ -13,7 +13,7 @@ const Hero = () => {
                </div>
             </div>
             <div className='flex flex-col items-center justify-center sm:pt-0 pt-8'>
-              <h1 className='uppercase text-white pb-4 m-2 text-[25px] bg-[#292d0d] rounded-lg  sm:bg-transparent  '>Sustainable starter kit</h1>
+              <h1 className='uppercase text-white pb-4 m-2 sm:text-[25px] text-[20px] bg-[#292d0d] rounded-lg  sm:bg-transparent  '>Sustainable starter kit</h1>
               <div className=''>
                 <img className='rounded-full sm:h-[400px] sm:w-[600px] h-[300px]  object-cover' src="/sustainable starter kit.webp" alt="" />
               </div>
